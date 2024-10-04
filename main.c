@@ -1,9 +1,8 @@
-#include <stdio.h>
-
 int main() {
     printf("Welcome to the main branch!\n");
-    printf("This is a new line!\n");
-    printf("Another change in the main.c file.\n");
+    int status = 1;
+    int res = move_forward();
     return 0;
 }
+
 
